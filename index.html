@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Memory Game vanilla javascript | PWA</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#283344">
+  <meta name="apple-mobile-web-app-title" content="Memory Game">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#283344">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="full-screen" content="yes">
+  <link rel="apple-touch-icon" href="/images/192.png" type="image/x-icon">
+  <link rel="apple-touch-startup-image" href="/images/192.png">
+</head>
+<body>
+  <div class="header">
+    <div class="time">00 : 00</div>
+  </div>
+  <div class="container">
+    <table class="memory-game-table">
+    </table>
+  </div>
+
+  <div class="modalWrapper">
+    <div class="modal">
+      <div class="modal__header">
+        Hello Guest!
+      </div>
+      <div class="modal__body">
+        <p>Just tap on the card to reveal what's behind it.</p>
+        <p>Your aim is to find all the possible pair as soon as possible.</p>
+      </div>
+      <div class="modal__footer">
+        <button class="startGame">Start</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
